@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+    <link href="dsstyle.css" rel="stylesheet" type="text/css" />
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		Advanced Search
+	</title>
+
+	
+</head>
+
+<body>
+	<h1>Advanced Search</h1>
+
+	<form id="form">
+
+		<!-- Details -->
+		<div class="form-control">
+			<label for="name" id="label-name">
+				Search
+			</label>
+
+			<!-- Input Type Text -->
+			<input type="text"
+				id="name"
+				placeholder="Enter the game you wanna search" />
+		</div>
+
+		<div class="form-control">
+			<label for="role" id="label-role">
+				<b> Please choose the age range that applies you. </b>
+			</label>
+			
+			<!-- Dropdown options -->
+			<select name="role" id="role">
+                <option value=""></option>
+				<option value="a">5-10</option>
+				<option value="intern">10-15</option>
+				<option value="professional">15-18</option>
+				<option value="other">18+</option>
+			</select>
+		</div>
+
+		<div class="form-control">
+			<label>
+				<b>Which genres do you want to see?</b> 
+			</label>
+
+			<label for="g1"><input type="checkbox"  id="g1" name="recommed">Action-Adventure</input></label>
+			<label for="g2"><input type="checkbox"	id="g2"	name="recommed">RPG</input></label>
+			<label for="g3"><input type="checkbox"  id="g3"	name="recommed">FPS</input></label>
+            <label for="g4"><input type="checkbox"  id="g4" name="recommed">Horror</input> </label>
+            <label for="g5"><input type="checkbox"  id="g5" name="recommed">Simulation</input> </label>
+            <label for="g6"><input type="checkbox"  id="g6" name="recommed">Puzzle</input> </label>
+            <label for="g7"><input type="checkbox"  id="g7" name="recommed">Strategy</input></label>
+            <label for="g8"><input type="checkbox"  id="g8" name="recommed">Anime</input> </label>
+            <label for="g9"><input type="checkbox"  id="g9" name="recommed">Sports</input></label>
+		</div>
+
+	    <div class="form-control">
+			<label for="comment">
+				if the genre you're looking for isn't on the list just search it here
+			</label>
+
+			<input type="text" id="name" placeholder="Enter the genre">
+			</textarea>
+		</div>
+
+		<div class="form-control">
+			<label><b>Choose the platform.</b></label>
+
+			<label for="inp-1"><input type="radio"	name="inp">PC</input></label>
+			<label for="inp-2"><input type="radio"name="inp">Nintendo Switch</input></label>
+			<label for="inp-3"><input type="radio"name="inp">PS4/Pro</input></label>
+			<label for="inp-4"><input type="radio"name="inp">Smartphone/Tablet</input></label>
+			<label for="inp-5"><input type="radio"name="inp">XBOX One/X</input></label>
+			<label for="inp-6"><input type="radio"name="inp">VR/AR Headset</input></label>
+			<label for="inp-7"><input type="radio"name="inp">Mac</input></label>
+		</div>
+
+		<button type="submit" value="submit">
+			<a href="index.html">Go </a> 
+		</button>
+	</form>
+</body>
+
+</html>
